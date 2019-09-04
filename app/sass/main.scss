@@ -1,0 +1,22 @@
+// variables
+@import 'src/vars';
+
+//bootsrap import
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+// fonts
+
+@import   '../css/fonts.css';
+// libs
+@import   '../css/bootstrap.min.css';
+@import   '../css/bootstrap-datetimepicker.min.css';
+@import   '../css/bootstrap-theme.min.css';
+// components
+@import 'src/reset';
+@import 'src/base';
+@import 'src/header';
+@import 'src/main-content';
+
+

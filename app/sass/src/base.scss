@@ -1,0 +1,30 @@
+
+body{
+	min-width: 320px;
+	font-family: 'proxima_novaregular';
+}
+* {
+	line-height: 1;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+a{
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+.container {
+	max-width: 966px;
+	padding: 0;
+	padding-top: 4px;
+	padding-bottom: 28px;
+
+}
+.row {
+	margin: 0;
+}

@@ -1,0 +1,134 @@
+
+.box_wrapper {
+	padding-top: 55px;
+}
+.box_wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.box {
+	min-width: 292px;
+	min-height: 292px;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 15px;
+	position: relative;
+
+}
+.box-1 {
+
+	background-image: url("../../img/block1.png");
+}
+.box-2 {
+	background-image: url("../../img/block2.png");
+}
+.box-3 {
+	background-image: url("../../img/block3.png");
+}
+.box-4 {
+	background-image: url("../../img/block4.png");
+}
+.box-5 {
+	background-image: url("../../img/block5.png");
+}
+.box-6 {
+	background-image: url("../../img/block6.png");
+}
+.box-7 {
+	background-image: url("../../img/block7.png");
+}
+.box-8 {
+	background-image: url("../../img/block8.png");
+}
+.box-9 {
+	background-image: url("../../img/block9.png");
+}
+
+.box_items {
+	position: absolute;
+	top: 58%;
+	left: 0;
+	justify-content: space-between;
+	display: flex;
+	margin: 0 0;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	white-space: nowrap;
+	font-family: 'proxima_novaregular', sans-serif;
+	font-weight: bold;
+}
+.box_items-inner {
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.box_comment {
+	margin-left: 22px;
+}
+
+.uploaded {
+	font-family: 'proxima_novaregular', sans-serif;
+	margin-top: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 17px;
+}
+.btn_wrapper {
+	display: flex;
+	justify-content: center;
+	& .btn {
+		padding: 10px 29px 10px;
+		border-radius: 20px;
+		font-family: 'proxima_novaregular';
+		font-size: 12px;
+		line-height: 12px;
+		text-transform: uppercase;
+		color: #000000;
+		border-color: #000000;
+	}
+}
+.camera {
+	position: absolute;
+	top:11px;
+	right: 12px;
+	background-image: url("../../img/videocam.png");
+	height: 34px;
+	width: 34px;
+}
+.box_text {
+	margin: 0 40px 0 0;
+	font-family: 'proxima_novasemibold';
+}
+.uploaded {
+	padding-bottom: 14px;
+}
+.uploaded_text {
+	font-family: 'proxima_novasemibold';
+}
+.box_items-inner {
+	justify-content: space-around;
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.box_wrap {
+		justify-content: center;
+	}
+	.box_wrapper {
+		padding-top: 30px;
+	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.box_wrap {
+		justify-content: center;
+	}
+	.box_wrapper {
+		padding-top: 20px;
+	}
+}
